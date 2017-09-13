@@ -19,7 +19,6 @@ const buttonEffect = keyframes`
 export default styled(Button)`
   ${(props) => {
     const theme = createTheme(props.theme);
-    console.log(theme);
     const mixins = mixin(theme);
     return css`
       ${mixins.btn()}
