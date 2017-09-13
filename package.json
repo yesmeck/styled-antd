@@ -1,0 +1,26 @@
+{
+  "name": "styled-antd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^2.13.1",
+    "color": "^2.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "styled-components": "^2.1.2"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.6",
+    "@storybook/addon-links": "^3.2.6",
+    "@storybook/react": "^3.2.8"
+  },
+  "description": ""
+}
