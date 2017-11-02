@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "publish-gh-pages": "npm run build-storybook && cd storybook-static && git init && git commit --allow-empty -m 'Update' && git checkout -b gh-pages && git add . && git commit -am 'Update' && git push git@github.com:yesmeck/styled-antd gh-pages --force"
   },
   "keywords": [],
   "author": "",

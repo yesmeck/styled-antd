@@ -23,7 +23,7 @@ storiesOf('Button', module)
       <Button type="danger">Danger</Button>
     </Block>
   )
-  .add('theme', () =>
+  .add('green theme', () =>
     <ThemeProvider theme={{ primaryColor: '#00A854' }}>
       <Block>
         <Button type="primary">Primary</Button>
